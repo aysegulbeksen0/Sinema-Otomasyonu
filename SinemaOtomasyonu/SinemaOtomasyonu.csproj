@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FilmBilgileri\FilmBilgileri.csproj" />
+    <ProjectReference Include="..\KullaniciGirisi\KullaniciGirisi.csproj" />
+    <ProjectReference Include="..\OtomasyonAgaci\OtomasyonAgaci.csproj" />
+    <ProjectReference Include="..\OzetPaneliBilgileri\OzetPaneliBilgileri.csproj" />
+  </ItemGroup>
+
+</Project>
